@@ -59,3 +59,14 @@ paste the following code block at the end of the file.
 your SMB configuration shold look like this
 
 ![Samba config](./assets/samba_Config.png)
+
+## 2. set credentials for NAS
+
+```bash
+sudo smbpasswd -a YOUR_USERNAME
+sudo systemctl restart smbd
+```
+
+### Ways to access your NAS
+
+

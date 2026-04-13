@@ -197,7 +197,7 @@ Since we have setup Casa OS you can download jellyfin from the Casa OS appstore
 1. Click the jellyfin icon on casa OS and make an account.
 2. Add your movies Folder to the jellyfin media library
 
-![Jellyfin](./assets/jellyfin.png)
+![Jellyfin](./assets/jelllyfin.png)
    
 
 you're now a Proud owner of a Media Server !

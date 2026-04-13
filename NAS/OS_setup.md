@@ -4,7 +4,11 @@ This section covers how to turn your laptop into a server.
 ---
 
 ## 1. Wipe the existing OS & Install Ubuntu
-Since we want a lightweight server OS wipe ou the existing OS and install ubuntu. 
+ There are many server OSs to choose from. I recommend you to use Ubuntu because Ubuntu Server LTS is beginner friendly
+ and easy to use for general purposes. Ubuntu LTS is a headless OS hence a great learning opportunity to learn Linux basics.
+[More about server OS](https://www.geeksforgeeks.org/operating-systems/what-is-a-server-os/) 
+
+Since we want a lightweight server OS wipe out the existing OS and install ubuntu. 
 
 ### Steps:
 * **Download the ISO image** [Here](https://ubuntu.com/download/server)

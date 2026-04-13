@@ -1,5 +1,5 @@
-# 🛠 Phase 1: Hardware & OS Setup
-This section covers how to turn the physical laptop into a server.
+# Phase 1: Hardware & OS Setup
+This section covers how to turn your laptop into a server.
 
 ---
 

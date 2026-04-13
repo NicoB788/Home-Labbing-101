@@ -48,4 +48,12 @@ Change the samba configuration file
 ```bash
 sudo nano /etc/samba/smb.conf
 ```
+paste the following code block at the end of the file.
+
+```bash
+[myfiles]
+  path = /media/myfiles
+  writeable=yes
+  public=no
+```
 

@@ -24,24 +24,24 @@ Creating a NAS is not strictly required but its way easier to access and manage 
 ## 1. Install Samba
 Samba is the software that allows Linux to share files with Windows and Mac.
 
-**Run this command to install it:**
+**Run this commands to install it:**
 ```bash
 sudo apt update && sudo apt install samba -y
 ```
 
-## 2. Create a shared folder
+ 2. Create a shared folder
 
 ```bash
 mkdir /media/myfiles
 ```
 
-## 3. Change the permission
+ 3. Change the permission
 
 ```bash
 sudo chown $USER: /media/myfiles
 ```
 
-## 4. Change the samba configuration file
+ 4. Change the samba configuration file
 
 ```bash
 sudo nano /etc/samba/smb.conf

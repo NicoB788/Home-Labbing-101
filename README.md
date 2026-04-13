@@ -13,7 +13,7 @@ This tutorial will walk you through how to make the simplest form of a home serv
 - Basic networking skills
 - Basic hardware knowledge
   
-# [Step 1: Install OS](./OS20%setup.md)
+# [Step 1: Install OS](./OS_setup.md)
  There are many server OSs to choose from. I recommend you to use Ubuntu because Ubuntu Server LTS is beginner friendly
  and easy to use for general purposes. Ubuntu LTS is a headless OS hence a great learning opportunity to learn Linux basics.
 [More about server OS](https://www.geeksforgeeks.org/operating-systems/what-is-a-server-os/) 

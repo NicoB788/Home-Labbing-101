@@ -58,4 +58,4 @@ paste the following code block at the end of the file.
 ```
 your SMB configuration shold look like following
 
-![Lid Switch Config](./assets/Lid%20switch%20config.png)
+![Samba config](./assets/samba_Config.png)

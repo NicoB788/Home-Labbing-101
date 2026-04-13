@@ -14,7 +14,7 @@ Since we want a lightweight server OS wipe ou the existing OS and install ubuntu
 ---
 
 ## 2. The "Lid Close" Hack
-By default, a laptop sleeps when closed. To make it a server, we must "break" this setting.
+By default, a laptop sleeps when closed. To make it a server, laptop must functins even when the lid is closed.
 
 **Run this command in the Terminal:**
 ```bash

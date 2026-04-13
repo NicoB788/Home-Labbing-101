@@ -1,11 +1,6 @@
-# [Step 1: Install & setup OS](../OS_setup.md)
- There are many server OSs to choose from. I recommend you to use Ubuntu because Ubuntu Server LTS is beginner friendly
- and easy to use for general purposes. Ubuntu LTS is a headless OS hence a great learning opportunity to learn Linux basics.
-[More about server OS](https://www.geeksforgeeks.org/operating-systems/what-is-a-server-os/) 
-
 ---
 
-# Step 2: Setting up the NAS (Network Access)
+# Setting up the NAS (Network Access)
 Creating a NAS is not strictly required but its way easier to access and manage your storage.
 
 ## 1. Install Samba
@@ -76,7 +71,7 @@ sudo systemctl restart smbd
 > [!TIP]
 > If it asks for credentials, use the username and the **Samba password** you created in Phase 3.
 
-### 2. Remote access with SSh protocol
+## 2. Remote access with SSh protocol
 
 Since this is a server, we don't want to use the laptop's keyboard. We can access the server remotely from 
 any machine within the network using **SSH**.

@@ -1,4 +1,4 @@
-Setting up Jellyfin Media Server
+# Setting up Jellyfin Media Server
 Jellyfin is a free, open-source media system that lets you stream all your movies and TV shows from your laptop server to any device (Phone, TV, or Tablet).
 
 ## 1. Install Jellyfin

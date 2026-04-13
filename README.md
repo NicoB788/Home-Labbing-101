@@ -71,7 +71,6 @@ sudo systemctl restart smbd
 
 ### 1.Mapping the NAS in windows
 
-## 📁 Step 8: Mapping the NAS in Windows
 To make your server easy to use, we will map it as a "Network Drive." This makes it appear right next to your "C:" drive in File Explorer.
 
 ### Instructions:
@@ -86,8 +85,6 @@ To make your server easy to use, we will map it as a "Network Drive." This makes
 > [!TIP]
 > If it asks for credentials, use the username and the **Samba password** you created in Phase 3.
 
-![Windows Map Drive Guide](./assets/samba_Config.png)
-*(Note: Use your screenshot here to show the successful connection!)*
 
 
 

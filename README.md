@@ -78,9 +78,8 @@ sudo systemctl restart smbd
 3. In the top menu bar, click **Map network drive** (you might need to click the three dots `...` to find it).
 4. **Drive Letter:** Choose any letter (e.g., **Z:**).
 5. To find your IP address use
-   ```bash
-   ifconfig
-   '''
+   ``` bash
+   ifconfig 
 7. **Folder:** Type your server path: `\\192.168.1.XX\MyNAS` 
 8. Make sure **"Reconnect at sign-in"** is checked.
 9. Click **Finish**.

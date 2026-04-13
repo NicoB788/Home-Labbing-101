@@ -76,7 +76,9 @@ sudo systemctl restart smbd
 1. Open **File Explorer** on your Windows PC.
 2. Click on **This PC** in the left sidebar.
 3. In the top menu bar, click **Map network drive** (you might need to click the three dots `...` to find it).
+   
    ![Windows map](./assets/map_network.png)
+   
 5. **Drive Letter:** Choose any letter (e.g., **Z:**).
 6. To find your IP address use
    

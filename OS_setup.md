@@ -7,6 +7,7 @@ This section covers how to turn your laptop into a server.
 Since we want a lightweight server OS wipe ou the existing OS and install ubuntu. 
 
 ### Steps:
+* **Download the ISO image**[here](https://ubuntu.com/download/server)
 * **Flash the ISO:** Use [Rufus](https://rufus.ie/) on another PC.
 * **Boot Menu:** Restart the laptop and tap `F12` or `F2` (This changes according to your laptop manufacturer).
 * **Installation Type:** Select **"Erase disk and install Ubuntu."**

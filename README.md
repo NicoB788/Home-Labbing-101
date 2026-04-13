@@ -29,19 +29,19 @@ Samba is the software that allows Linux to share files with Windows and Mac.
 sudo apt update && sudo apt install samba -y
 ```
 
- 2. Create a shared folder
+Create a shared folder
 
 ```bash
 mkdir /media/myfiles
 ```
 
- 3. Change the permission
+Change the permission
 
 ```bash
 sudo chown $USER: /media/myfiles
 ```
 
- 4. Change the samba configuration file
+Change the samba configuration file
 
 ```bash
 sudo nano /etc/samba/smb.conf

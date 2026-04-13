@@ -3,9 +3,9 @@
 This tutorial will walk you through how to make a simplest form of a home server.
 
 ## Material Requirements
-- Old PC / Old Laptop with Storage
+- Old PC / Old Laptop with a networl port
 - Internet connection
-- Ethernet connection
+- Ethernet cable
   
 ## Knowledge requirements
 - Linux basics

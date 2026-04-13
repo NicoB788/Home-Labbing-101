@@ -1,7 +1,7 @@
 # Phase 1: Hardware & OS Setup
 This section covers how to turn your laptop into a server.
 
---
+---
 
 ## 1. Wipe the existing OS & Install Ubuntu
 Since we want a lightweight server OS wipe ou the existing OS and install ubuntu. 

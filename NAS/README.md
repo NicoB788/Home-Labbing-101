@@ -42,7 +42,7 @@ paste the following code block at the end of the file.
 ```
 your SMB configuration shold look like this
 
-![Samba config](./assets/samba_Config.png)
+![Samba config](../assets/samba_Config.png)
 
 ## 2. Set credentials for NAS
 
@@ -62,7 +62,7 @@ sudo systemctl restart smbd
 2. Click on **This PC** in the left sidebar.
 3. In the top menu bar, click **Map network drive** (you might need to click the three dots `...` to find it).
    
-   ![Windows map](./assets/map_network.png)
+   ![Windows map](../assets/map_network.png)
    
 5. **Drive Letter:** Choose any letter (e.g., **Z:**).
 6. To find your IP address use
@@ -97,7 +97,7 @@ SSH (Secure Shell) allows you to control your laptop server's terminal from any 
    ```
    your terminal should look like this if its running.
 
-    ![ssh](./assets/ssh.png)
+    ![ssh](../assets/ssh.png)
    
 4. From your Windows PowerShell or Mac Terminal, type:
 ```bash
@@ -108,7 +108,7 @@ ssh username@192.168.1.XX
 
 # Step 3 : Setting up a Dashboard for the Server
 
-  ![Casa_Os](./assets/casa_OS02.png)
+  ![Casa_Os](../assets/casa_OS02.png)
 
 ## Instructions
 1. Go to [This](https://casaos.zimaspace.com/) website and copy the command

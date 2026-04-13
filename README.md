@@ -30,7 +30,6 @@ Samba is the software that allows Linux to share files with Windows and Mac.
 ```bash
 sudo apt update && sudo apt install samba -y
 ```
-
 Create a shared folder
 
 ```bash

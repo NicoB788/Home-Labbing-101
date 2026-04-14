@@ -228,11 +228,13 @@ if you are in the same network as the server. All your media is shared via LAN c
  
 - In order to access the jellyfin server from another network we need to make road from
   internet to out home network.
-- There are few ways to do this.
-    1. Port forwarding
-    2. VPN
-    3. Reverse Proxy + Domain Name
-    4. Cloud Tunnel
+  
+There are few ways to do this.
+
+1. Port forwarding
+2. VPN
+3. Reverse Proxy + Domain Name
+4. Cloud Tunnel
        
 - In this tutorial i will how do do this with a **Cloud tunnel**
   

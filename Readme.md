@@ -236,6 +236,6 @@ There are few ways to do this.
 3. Reverse Proxy + Domain Name
 4. Cloud Tunnel
        
-- In this tutorial i will how do do this with a **Cloud tunnel**
+- In this tutorial i will how do this with a **Cloud tunnel**
   
 

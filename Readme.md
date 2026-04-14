@@ -169,7 +169,7 @@ ssh username@192.168.1.XX
 
 ---
 
-## Step 3 : Setting up a Dashboard for the Server
+## Setting up a Dashboard for the Server
 
   ![Casa_Os](./assets/casa_OS02.png)
 

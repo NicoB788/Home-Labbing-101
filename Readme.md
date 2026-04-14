@@ -228,7 +228,7 @@ if you are in the same network as the server. All your media is shared via LAN c
   <img src="./Diagrams/LAN_network.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="72%" />
 </p>
  
-- In order to access the jellyfin server from another network we need to make road from
+- In order to access the jellyfin server from another network we need to make a connection from
   internet to out home network.
   
 There are few ways to do this.

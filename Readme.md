@@ -1,6 +1,6 @@
 # Homelab Setup Tutorial
 
-<img src="./assets/server.jpeg" alt="server" width="150">
+<img src="./assets/server.jpeg" alt="server" width="250">
 
 This tutorial will walk you through how to make the simplest form of a home server.
 

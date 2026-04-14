@@ -196,18 +196,21 @@ Since we have setup Casa OS you can download jellyfin from the Casa OS appstore
 ## Instructions
 1. Click the jellyfin icon on casa OS and make an account.
 2. Add your movies Folder to the jellyfin media library
-3. To access Open your browser and type
+
+![Jellyfin](./assets/jelllyfin.png)
+
+   
+4. To access Open your browser and type
    ```bash
    http://192.168.1.XX:8096\
    ```
 
 ## Hardware accelaratioon
 
-** Since you are using a laptop, you can use the built-in graphics to help the server stream without the CPU getting too hot.
+**Since you are using a laptop, you can use the built-in graphics to help the server stream without the CPU getting too hot.**
 
 
-![Jellyfin](./assets/jelllyfin.png)
-   
+
 
 you're now a Proud owner of a Media Server !
 

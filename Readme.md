@@ -208,6 +208,11 @@ Since we have setup Casa OS you can download jellyfin from the Casa OS appstore
 ## Hardware accelaratioon
 
 **Since you are using a laptop, you can use the built-in graphics to help the server stream without the CPU getting too hot.**
+## Instructions
+
+1.Go to Dashboard > Playback.
+2.Under Hardware Acceleration, select Intel QuickSync (QSV) or VA-API.
+
 
 
 

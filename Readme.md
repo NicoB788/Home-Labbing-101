@@ -22,6 +22,7 @@ This tutorial will walk you through how to make the simplest form of a home serv
 - How Create a NAS to get network Acess
 - How install a dashboard for your server
 - How to create a Media server using Jellyfin
+- Implementing a Tunnel to access the server outside your home network
   
 ---
 

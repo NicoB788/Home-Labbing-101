@@ -221,36 +221,8 @@ you're now a Proud owner of a Media Server !
 To access your jellyfin server from another network first you need to understand 
 How your server acts within your provate network.
 
-graph LR
-    %% Definitions
-    subgraph "Local Home Network (LAN) - 192.168.1.X"
-        %% Devices
-        Client(Jellyfin Client App\ne.g., TV or Smartphone\n192.168.1.50)
-        Router(Router / Switch\n(Local Traffic Only)\n192.168.1.1)
-        %% Server Details
-        subgraph "Your Old Laptop Server (192.168.1.XX)"
-            JellyfinServer(Jellyfin Server Service\n(localhost:8096))
-            LocalStorage(Local Storage / NAS Folder\ne.g., /media/myfiles)
-        end
-    end
-    %% Communication Flow
-    Client -- "(1) Discover Server &\nBrowse Library (metadata)" --> Router
-    Router --> JellyfinServer
-    JellyfinServer -- "Response: Titles, Images" --> Router
-    Router --> Client
-    %% Play Request
-    Client -- "(2) Click 'Play'\nRequest specific media ID" --> Router
-    Router --> JellyfinServer
-    %% Data Retrieval
-    JellyfinServer -- "(3) Internal Request:\nFetch media path" --> LocalStorage
-    LocalStorage -- "Returns media file data (raw/original)" --> JellyfinServer
-    %% Data Delivery (Decision)
-    JellyfinServer -- "(4a) IF Transcoding Needed (Overheat Risk)\nCONVERT VIDEO DATA" --> Router
-    Router --> Client
-    JellyfinServer -- "(4b) IF Direct Play Supported\nSTREAM ORIGINAL DATA" --> Router
-    Router --> Client
-    %% Styling
-    style Client fill:#def,stroke:#333,stroke-width:2px,color:black
-    style Router fill:#f9f,stroke:#333,stroke-width:1px,stroke-dasharray: 5 5,color:black
-    style JellyfinServer fill:#bbf,stroke:#333,stroke-width:2px,color:black
-    style LocalStorage fill:#ddf,stroke:#333,stroke-width:1px,color:black
+Up until now we have kept our server inside our private network. You can only access your jellyfin server
+if you are in the same network as the server. All your media is shared via LAN connection.
+
+![Jellyfin](./assets/LAN_streaming.png)
+

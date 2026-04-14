@@ -25,7 +25,7 @@ This tutorial will walk you through how to make the simplest form of a home serv
   
 ---
 
-# Phase 1: Hardware & OS Setup
+# Hardware & OS Setup
 This section covers how to turn your laptop into a server.
 
 ---

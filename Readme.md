@@ -1,12 +1,14 @@
 # Homelab Setup Tutorial
 
+<img src="../assets/server.jpeg" alt="server" width="400">
+
 This tutorial will walk you through how to make the simplest form of a home server.
 
 ## Material Requirements
 - Old PC / Old Laptop with a network port
 - Internet connection
 - Ethernet cable
-                                                    ![server](./assets/server.jpeg)
+                                                   
 ## Knowledge requirements
 - Linux basics
 - How to remove and install an OS

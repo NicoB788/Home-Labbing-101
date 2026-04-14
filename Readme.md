@@ -225,7 +225,7 @@ Up until now we have kept our server inside our private network. You can only ac
 if you are in the same network as the server. All your media is shared via LAN connection.
 
 <p align="center">
-  <img src="./Diagrams/LAN_network.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="65%" />
+  <img src="./Diagrams/LAN_network.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="72%" />
 </p>
  
 - In order to access the jellyfin server from another network we need to make road from

@@ -289,6 +289,51 @@ On your Ubuntu server, create a dedicated directory for the tunnel to keep your 
 ```bash
 mkdir -p ~/docker/cloudflared
 cd ~/docker/cloudflared
+```
+Store your token in a hidden .env file to keep your docker-compose.yml clean and secure
+
+```bash
+nano .env
+```
+
+Paste the following (replace with your actual token):
+```Code snippet
+TUNNEL_TOKEN=your_unique_token_string_here
+```
+
+## Step 3: Create Docker Compose
+
+Create the docker-compose.yml file:
+```bash
+nano docker-compose.yml
+```
+
+Paste the following configuration:
+```YAML
+services:
+  tunnel:
+    container_name: cloudflared-tunnel
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    environment:
+      - TUNNEL_TOKEN=${TUNNEL_TOKEN}
+    command: tunnel --no-autoupdate run
+```
+
+Launch the Tunnel
+```bash
+docker compose up -d
+```
+
+Verify Status
+```bash
+docker ps
+```
+
+
+
+
+
    
 
 

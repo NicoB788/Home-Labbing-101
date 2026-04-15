@@ -257,3 +257,32 @@ There are few ways to do this.
 - Cloudflare also allows you to buy Domains.
 - You can secure a cheap domain name if you buy a .uk domain.
 
+  ## Instructions
+
+Step 1: Prepare your Domain
+- Log in to Cloudflare.
+- Ensure your domain is active (Status: Active). If you just bought it, follow Cloudflare’s "Add Site" wizard to point your registrar's nameservers to Cloudflare.
+
+Step 2: Create the Tunnel in Zero Trust  
+- On the left sidebar of the Cloudflare dashboard, click Zero Trust.
+- In the sidebar, go to Networks > Tunnels (or go to Zero Trust > Networks > Tunnels).
+- Click Create a tunnel.
+- Choose Cloudflared as the connector and give your tunnel a name (e.g., "Home-Server").
+
+Step 3: Install the "Connector" on your Server
+
+### A. Download and Install the Repository
+```bash
+# Add Cloudflare's GPG key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL [https://pkg.cloudflare.com/cloudflare-main.gpg](https://pkg.cloudflare.com/cloudflare-main.gpg) | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+
+# Add the cloudflared repository
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] [https://pkg.cloudflare.com/cloudflared](https://pkg.cloudflare.com/cloudflared) any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
+
+# Update package lists and install cloudflared
+sudo apt-get update && sudo apt-get install cloudflared
+```
+   
+
+
